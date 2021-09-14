@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const request = require('request');
 const https = require('https')
 const product = require("./api/product");
 const cors = require('cors');
@@ -111,6 +110,6 @@ app.post('/', (req, res) => {
   });
 });
 
-app.listen(3000, function () {
+app.listen(PORT, function () {
   console.log("Weather app listening on port 3000!");
 });
