@@ -53,12 +53,12 @@ app.post('/', (req, res) => {
 
           var timezone = `${weatherData["timezone"]}`;
 
-          if (weatherData.sys.country !== "IN") {
-            var ist = 19800;
-            weatherTimezone = `${new Date(weatherData.dt * 1000 + weatherData["timezone"] * 1000)}`;
-            sunset = `${new Date(weatherData.sys["sunset"] * 1000 + weatherData["timezone"] * 1000)}`;
-            sunrise = `${new Date(weatherData.sys["sunrise"] * 1000 + weatherData["timezone"] * 1000)}`;
-          }
+
+          var ist = 19800;
+          weatherTimezone = `${new Date(weatherData.dt * 1000 + weatherData["timezone"] * 1000)}`;
+          sunset = `${new Date(weatherData.sys["sunset"] * 1000 + weatherData["timezone"] * 1000)}`;
+          sunrise = `${new Date(weatherData.sys["sunrise"] * 1000 + weatherData["timezone"] * 1000)}`;
+
 
           console.log(" Timezone: ", weatherTimezone);
           console.log(" Sunset: ", sunset);
