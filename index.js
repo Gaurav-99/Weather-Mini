@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const product = require("./api/product");
-
+const cors = require('cors');
 
 //Setup express app
 const app = express();
@@ -18,6 +18,8 @@ const apiKey = `${process.env.API_KEY}`;
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
+app.use(cors());
+app.options('*', cors());
 
 //default get request
 app.get("/", (req, res) => {
