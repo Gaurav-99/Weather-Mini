@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WeatherApp</title>
+  <link rel="stylesheet" href="/css/lander.css" />
+</head>
+
+<body>
+  <div class="showcase">
+    <div class="showcase-title">
+      <h1>Weather Forecast</h1>
+    </div>
+
+    <div class="showcase-input">
+      <form action="/" method="post">
+        <input name="city" type="text" class="city-input" placeholder="Enter a City" required />
+        <input type="submit" class="city-button" value="Get Weather" />
+      </form>
+    </div>
+    <%if( weatherData==null){ %>
+      <div class="error">
+        <p>Please enter valid location !!</p>
+      </div>
+      <%}%>
+  </div>
+</body>
+
+</html>
