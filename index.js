@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
+const https = require('https')
 const product = require("./api/product");
 const cors = require('cors');
 
@@ -32,21 +33,14 @@ app.post('/', (req, res) => {
   let city = req.body.city;
 
 
-  let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
-  /*   var xhr = new XMLHttpRequest();
-  
-      xhr.open("GET", url);
-      xhr.send();
-      xhr.onload = ();  */
-  async function reqst() {
+  https.get(url, (response) => {
 
-    await request(url, (err, response, body) => {
+    if (response.statusCode === 200) {
+      response.on("data", (data) => {
 
-      if (err) {
-        res.render('lander', { weatherData: null, error: 'Error, please try again' });
-      } else {
-        let weatherData = JSON.parse(body);
+        let weatherData = JSON.parse(data);
         console.log(weatherData);
 
         if (weatherData.main == undefined) {
@@ -58,7 +52,7 @@ app.post('/', (req, res) => {
             sunset = `${new Date(weatherData.sys["sunset"] * 1000)}`,
             sunrise = `${new Date(weatherData.sys["sunrise"] * 1000)}`;
 
-          //var timezone = `${weatherData["timezone"]}`;
+          var timezone = `${weatherData["timezone"]}`;
 
           if (weatherData.sys.country !== "IN") {
             var ist = 19800;
@@ -89,6 +83,7 @@ app.post('/', (req, res) => {
           }
           weatherFahrenheit = roundToTwo(weatherFahrenheit);
 
+
           res.render("weatherPage", {
             weatherData,
             place,
@@ -106,14 +101,14 @@ app.post('/', (req, res) => {
             main,
             error: null,
           });
+
         }
-      }
 
-    });
-
-  }
-  reqst();
-
+      })
+    } else {
+      res.render('lander', { weatherData: null, error: 'Error, please try again' });
+    }
+  });
 });
 
 app.listen(3000, function () {
