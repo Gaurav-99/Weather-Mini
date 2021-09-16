@@ -23,7 +23,7 @@
   child can handle it and get information on particular geographical area.
   
   
-# Live Weather forecast of entered location
+# Live Weather Forecast of Entered Location
 
 ![image](https://user-images.githubusercontent.com/51323586/133636663-08803e63-f248-40ef-beeb-9c564eb2b057.png)
 
