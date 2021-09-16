@@ -45,23 +45,28 @@
   
 # Approach:
 
-  I started the project with backend side of my webapp. First I installed the 
-  necessary dependencies like express, ejs, body-parser, dotenv etc. Then created 
-  an express app then setted the view-engine to ejs, then created a middleware 
+  > I started the project with backend side of my webapp. First I installed the 
+  necessary dependencies like express, ejs, body-parser, dotenv etc. 
+  
+  > Then created an express app then setted the view-engine to ejs, then created a middleware 
   that will parse the content of the form submitted. Then created the directory 
   inside the root directory named ‘views’ to store all template files of the app. 
   Then created two files inside views directory ‘lander.ejs’(landing page of the app
   with input form that will take location as input) and ‘weatherPage.ejs’ (for 
-  showing the weather data). Then created a new directory in root directory 
+  showing the weather data).
+  
+  > Then created a new directory in root directory 
   named ‘public’ to store static files (css and media files), inside public created 
   two directories one for css and other for media elements (mainly images), then 
-  created styles sheets for each of the pages(landing and weatherPage). Now on 
-  backend-side called the live weather api of openweathermap.org and stored
+  created styles sheets for each of the pages(landing and weatherPage).
+  
+  > Now on backend-side called the live weather api of openweathermap.org and stored
   and parsed the received data in local variable as javascript object. Then 
   converted units of the received data then exported the final data to 
-  weatherPage.ejs which will output the data to user. After completing the code 
-  first launched the app locally and checked the app is working fine. Then hosted 
-  the app on Heroku.
+  weatherPage.ejs which will output the data to user. 
+  
+  > After completing the code first launched the app locally and checked the app is
+  working fine. Then hosted the app on Heroku.
   
   
   https://weather-mini-app.herokuapp.com/
