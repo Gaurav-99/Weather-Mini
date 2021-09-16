@@ -30,16 +30,16 @@
 
 # Tech-Stack Used:
 
-  <ins>HTML and EJS:</ins> Used the html to build the structure of webapp and EJS to include 
+  <ins>HTML and EJS </ins>:- Used the html to build the structure of webapp and EJS to include 
     dynamic Weather data and outputting the received data at correct places.
     
-  CSS: Used it to design the webapp so as to give it a simple and easy to use user interface.
+  <ins>CSS </ins>:- Used it to design the webapp so as to give it a simple and easy to use user interface.
   
-  JavaScript (Node.js): Used it to setup the server(backend) of the webapp
+  <ins>JavaScript (Node.js) </ins>:- Used it to setup the server(backend) of the webapp
   
-  Express.js: Used it as server framework and for handling of HTTP request
+  <ins>Express.js </ins>:- Used it as server framework and for handling of HTTP request
   
-  Visual Studio Code: Used to build and deploy project locally.
+  <ins>Visual Studio Code </ins>:- Used to build and deploy project locally.
   
   
 # Approach:
