@@ -27,6 +27,20 @@
 
 ![image](https://user-images.githubusercontent.com/51323586/133636663-08803e63-f248-40ef-beeb-9c564eb2b057.png)
 
+
+# Tech-Stack Used:
+
+  HTML and EJS: Used the html to build the structure of webapp and EJS to include 
+    dynamic Weather data and outputting the received data at correct places.
+    
+  CSS: Used it to design the webapp so as to give it a simple and easy to use user interface.
+  
+  JavaScript (Node.js): Used it to setup the server(backend) of the webapp
+  
+  Express.js: Used it as server framework and for handling of HTTP request
+  
+  Visual Studio Code: Used to build and deploy project locally.
+  
   
 # Approach:
 
@@ -48,18 +62,5 @@
   first launched the app locally and checked the app is working fine. Then hosted 
   the app on Heroku.
   
-  
-# Tech-Stack Used:
-
-  HTML and EJS: Used the html to build the structure of webapp and EJS to include 
-    dynamic Weather data and outputting the received data at correct places.
-    
-  CSS: Used it to design the webapp so as to give it a simple and easy to use user interface.
-  
-  JavaScript (Node.js): Used it to setup the server(backend) of the webapp
-  
-  Express.js: Used it as server framework and for handling of HTTP request
-  
-  Visual Studio Code: Used to build and deploy project locally.
   
   https://weather-mini-app.herokuapp.com/
