@@ -10,14 +10,15 @@
   Weather forecasting is very necessary for our daily lives. It helps us to prepare 
   and make plans depending on the expectations. Many weather stations are 
   placed around the world fetching real-time weather elements’ data.
+  
   Weather-mini is a web based application through which user will able be to get 
   live weather forecasting of the entered location. It uses a third party weather 
-  API (of openweathermap.org) which sends current weather data by city name. 
-  Weather-mini displays weather details such as precipitation, wind, atmospheric 
-  pressure, cloudiness, and temperature. With these, user can analyze trends and 
-  know the prediction of tomorrow’s data or forecast the weather. To change the 
-  location user will just have to enter the new location in the location input box 
-  and will get all the weather details. 
+  API (of openweathermap.org) which sends current weather data by city name. Weather-mini 
+  displays weather details such as precipitation, wind, atmospheric pressure, cloudiness, 
+  and temperature. With these, user can analyze trends and know the prediction of tomorrow’s 
+  data or forecast the weather. To change the location user will just have to enter the 
+  new location in the location input box and will get all the weather details. 
+  
   Its calculations and details are so accurate, that you can even check and match 
   it from news channel. Its user’s friendly UI is simple and easy to use, that even a 
   child can handle it and get information on particular geographical area.
