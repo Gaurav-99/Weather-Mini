@@ -30,7 +30,7 @@
 
 # Tech-Stack Used:
 
-  HTML and EJS: Used the html to build the structure of webapp and EJS to include 
+  <ins>HTML and EJS:</ins> Used the html to build the structure of webapp and EJS to include 
     dynamic Weather data and outputting the received data at correct places.
     
   CSS: Used it to design the webapp so as to give it a simple and easy to use user interface.
