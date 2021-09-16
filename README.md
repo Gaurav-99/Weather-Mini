@@ -5,11 +5,6 @@
 ![image](https://user-images.githubusercontent.com/51323586/133636488-838ef48b-5aa7-4dbe-9d9d-81ea4dbf69f1.png)
 
 
-# Live Weather forecast of entered location
-
-![image](https://user-images.githubusercontent.com/51323586/133636663-08803e63-f248-40ef-beeb-9c564eb2b057.png)
-
-
 # Project Description:
 
   Weather forecasting is very necessary for our daily lives. It helps us to prepare 
@@ -27,6 +22,11 @@
   it from news channel. Its user’s friendly UI is simple and easy to use, that even a 
   child can handle it and get information on particular geographical area.
   
+  
+# Live Weather forecast of entered location
+
+![image](https://user-images.githubusercontent.com/51323586/133636663-08803e63-f248-40ef-beeb-9c564eb2b057.png)
+
   
 # Approach:
 
