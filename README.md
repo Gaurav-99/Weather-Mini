@@ -1,16 +1,14 @@
 # Weather-Mini
 
+  Weather forecasting is very necessary for our daily lives. It helps us to prepare 
+  and make plans depending on the expectations. Many weather stations are 
+  placed around the world fetching real-time weather elements’ data.
+
 # Landing page
 
 ![image](https://user-images.githubusercontent.com/51323586/133636488-838ef48b-5aa7-4dbe-9d9d-81ea4dbf69f1.png)
 
 
-# Project Description:
-
-  Weather forecasting is very necessary for our daily lives. It helps us to prepare 
-  and make plans depending on the expectations. Many weather stations are 
-  placed around the world fetching real-time weather elements’ data.
-  
   Weather-mini is a web based application through which user will able be to get 
   live weather forecasting of the entered location. It uses a third party weather 
   API (of openweathermap.org) which sends current weather data by city name. Weather-mini 
