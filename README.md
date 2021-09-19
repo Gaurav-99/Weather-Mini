@@ -43,10 +43,10 @@
   
 # Approach:
 
-  > I started the project with backend side of my webapp. First I installed the 
-  necessary dependencies like express, ejs, body-parser, dotenv etc. 
+  > I started the project with backend side. The first I did was installed all the 
+  necessary dependencies like express, ejs, body-parser, dotenv, https etc. 
   
-  > Then created an express app then setted the view-engine to ejs, then created a middleware 
+  > Then created an express app after that setted the view-engine to ejs, then created a middleware 
   that will parse the content of the form submitted. Then created the directory 
   inside the root directory named ‘views’ to store all template files of the app. 
   Then created two files inside views directory ‘lander.ejs’(landing page of the app
@@ -61,10 +61,9 @@
   > Now on backend-side called the live weather api of openweathermap.org and stored
   and parsed the received data in local variable as javascript object. Then 
   converted units of the received data then exported the final data to 
-  weatherPage.ejs which will output the data to user. 
+  weatherPage.ejs which will output the weather data to user. 
   
-  > After completing the code first launched the app locally and checked the app is
-  working fine. Then hosted the app on Heroku.
+  > After completing the code, first tested the app by locally, then hosted the app on Heroku.
   
   
  # Website Link:- https://weather-mini-app.herokuapp.com/
