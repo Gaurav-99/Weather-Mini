@@ -63,7 +63,7 @@
   converted units of the received data then exported the final data to 
   weatherPage.ejs which will output the weather data to user. 
   
-  > After completing the code, first tested the app by locally, then hosted the app on Heroku.
+  > After completing the code, first tested the app locally, then hosted the app on Heroku.
   
   
  # Website Link:- https://weather-mini-app.herokuapp.com/
