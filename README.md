@@ -42,3 +42,7 @@
    
   
  # Website Link:- https://weather-mini-app.herokuapp.com/
+ 
+ 
+ * Work in progress.
+  -> This app was build for studying purposes only.
